@@ -1,0 +1,16 @@
+{
+  "name": "orbitdb-tutorial",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "git@github.com:TsubasaK111/orbitdb-tutorial.git",
+  "author": "Tsubasa Kondo <tsubasa.k111@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "ipfs-core": "^0.3.1"
+  }
+}
