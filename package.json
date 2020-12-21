@@ -6,11 +6,16 @@
   "author": "Tsubasa Kondo <tsubasa.k111@gmail.com>",
   "license": "MIT",
   "private": false,
+  "browserslist": [
+    "last 2 Chrome versions"
+  ],
   "scripts": {
     "dev": "parcel index.html",
     "build": "parcel build index.html"
   },
   "dependencies": {
-    "ipfs-core": "^0.3.1"
+    "babel-polyfill": "^6.26.0",
+    "ipfs-core": "^0.3.1",
+    "orbit-db": "^0.26.0"
   }
 }
